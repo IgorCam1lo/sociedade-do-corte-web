@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <!-- Shield outline -->
+  <path d="M100 8 L190 45 L190 145 Q190 210 100 232 Q10 210 10 145 L10 45 Z" 
+        stroke="#CDB888" stroke-width="3" fill="none"/>
+  
+  <!-- Inner shield fill -->
+  <path d="M100 16 L183 50 L183 143 Q183 204 100 224 Q17 204 17 143 L17 50 Z" 
+        fill="#364035"/>
+  
+  <!-- Barber pole stripes - left -->
+  <g opacity="0.6">
+    <rect x="35" y="55" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(-15 37 70)"/>
+    <rect x="41" y="52" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(-15 43 67)"/>
+    <rect x="47" y="49" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(-15 49 64)"/>
+  </g>
+  
+  <!-- Barber pole stripes - right -->
+  <g opacity="0.6">
+    <rect x="149" y="55" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(15 151 70)"/>
+    <rect x="155" y="52" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(15 157 67)"/>
+    <rect x="161" y="49" width="4" height="30" rx="1" fill="#CDB888" transform="rotate(15 163 64)"/>
+  </g>
+  
+  <!-- S letter -->
+  <text x="85" y="148" font-family="'Playfair Display', Georgia, serif" font-size="100" 
+        font-weight="700" fill="#CDB888" opacity="0.9">S</text>
+  
+  <!-- C letter (overlapping) -->
+  <text x="105" y="155" font-family="'Playfair Display', Georgia, serif" font-size="100" 
+        font-weight="400" fill="#CDB888">C</text>
+  
+  <!-- Sociedade do Corte text -->
+  <text x="100" y="192" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" 
+        font-size="14" font-style="italic" fill="#CDB888" letter-spacing="1">Sociedade do Corte</text>
+  
+  <!-- Small decorative line -->
+  <line x1="55" y1="200" x2="145" y2="200" stroke="#CDB888" stroke-width="0.5" opacity="0.4"/>
+</svg>
